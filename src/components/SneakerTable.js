@@ -3,11 +3,12 @@
 import React, { useState } from 'react';
 import SneakerCard from './SneakerCard';
 import SneakerDetail from './SneakerDetail';
-import sneakersData from '../data/sneakers';
+import useSneakers from '../data/sneakers';
 import './SneakerTable.css';
 
 const SneakerTable = () => {
   const [selectedSneaker, setSelectedSneaker] = useState(null);
+  const sneakers = useSneakers();
 
   const handleCardClick = (sneaker) => {
     setSelectedSneaker(sneaker);
@@ -17,7 +18,6 @@ const SneakerTable = () => {
     setSelectedSneaker(null);
   };
 
-  // Group sneakers by day
   const daysOfWeek = [
     'Monday',
     'Tuesday',
@@ -39,7 +39,7 @@ const SneakerTable = () => {
         </thead>
         <tbody>
           {daysOfWeek.map((day) => {
-            const sneaker = sneakersData.find((s) => s.day === day);
+            const sneaker = sneakers.find((s) => s.day === day);
             return (
               <tr key={day}>
                 <td>{day}</td>
