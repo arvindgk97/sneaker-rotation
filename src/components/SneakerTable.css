@@ -1,0 +1,23 @@
+/* src/components/SneakerTable.css */
+
+.sneaker-table-container {
+    padding: 20px;
+    overflow-x: auto;
+  }
+  
+  .sneaker-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .sneaker-table th,
+  .sneaker-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .sneaker-table th {
+    background-color: #f2f2f2;
+  }
+  

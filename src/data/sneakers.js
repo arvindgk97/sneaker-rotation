@@ -1,0 +1,60 @@
+const sneakers = [
+  {
+    id: 1,
+    name: "Air Jordan 1",
+    image: "/images/sneaker1.jpg",
+    description: "Classic high-top sneakers with iconic design.",
+    price: "$150",
+    day: "Monday",
+  },
+  {
+    id: 2,
+    name: "Nike Air Max 270",
+    image: "/images/sneaker2.jpg",
+    description: "Comfortable sneakers with a large Air Max unit.",
+    price: "$150",
+    day: "Tuesday",
+  },
+  {
+    id: 3,
+    name: "Adidas Yeezy Boost 350",
+    image: "/images/sneaker3.jpg",
+    description: "Stylish and comfortable sneakers from Kanye West.",
+    price: "$220",
+    day: "Wednesday",
+  },
+  {
+    id: 4,
+    name: "Puma RS-X",
+    image: "/images/sneaker4.jpg",
+    description: "Bold and colorful sneakers with retro vibes.",
+    price: "$110",
+    day: "Thursday",
+  },
+  {
+    id: 5,
+    name: "Reebok Club C 85",
+    image: "/images/sneaker5.jpg",
+    description: "Timeless design with a clean and simple look.",
+    price: "$75",
+    day: "Friday",
+  },
+  {
+    id: 6,
+    name: "New Balance 990v5",
+    image: "/images/sneaker6.jpg",
+    description: "Premium quality sneakers with exceptional comfort.",
+    price: "$175",
+    day: "Saturday",
+  },
+  {
+    id: 7,
+    name: "Converse Chuck Taylor",
+    image: "/images/sneaker7.jpg",
+    description: "Classic low-top sneakers with versatile style.",
+    price: "$55",
+    day: "Sunday",
+  },
+];
+
+export default sneakers;
